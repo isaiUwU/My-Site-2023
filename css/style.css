@@ -150,8 +150,12 @@ a:hover {
     /*width: 200px;
     height: 200px;*/
     transition: transform 2000ms ease-in-out;
-    transform-origin: left top;
+    transform-origin: center;
+    filter: brightness(70%);
+    border-radius: 10px;
+
 }
 .web-image:hover {
     transform: scale(1.2);
+    filter: brightness(100%);
 }
